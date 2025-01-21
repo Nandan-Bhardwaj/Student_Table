@@ -10,9 +10,9 @@ public class JdbcConnec {
 
     private Connection connection;
 
-    private final String url = "jdbc:mysql://localhost:3306/db";
-    private final String user = "root";
-    private final String pass = "Nandan@123";
+    private final String url = "jdbc:mysql://localhost:3306//*your database name*/";
+    private final String user = "/*user name of your MySQL server*/";
+    private final String pass = "/*MySql Server Password goes here*/";
 
     private JdbcConnec() {
         try {
